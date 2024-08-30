@@ -18,7 +18,7 @@ RF24 radio(9, 10); //CE,CSN
 
 Adafruit_MPU6050 mpusus;
 
-const uint64_t ad = 0xE9E8F0F0E1LL;
+const byte ad[6] = "12345;
 
 int es1 = 1000, es2 = 1000, es3 = 1000, es4 = 1000;
 
