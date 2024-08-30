@@ -6,7 +6,7 @@
 RF24 radio(9, 10); //CE,CSN
 SoftwareSerial bluetooth(0, 1); //TX = 0, RX = 1
 
-const uint64_t ad = 0xE9E8F0F0E1LL;
+const byte ad[6] = "12345;
 char data;
 
 void setup() {
