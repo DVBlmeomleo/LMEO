@@ -14,7 +14,7 @@ Servo e3;
 Servo e4;
 Servo drop;
 
-RF24 radio(9, 10); //CE,CSN
+RF24 radio(7, 8); //CE,CSN
 
 Adafruit_MPU6050 mpusus;
 
